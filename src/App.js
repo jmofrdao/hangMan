@@ -12,10 +12,7 @@ const words = ['application', 'programming', 'interface', 'wizard', 'usestate', 
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
-let playable = true;
 
-const correctLetters = [];
-const wrongLetters = [];
 
 function App() {
 const [playable, setPlayable ] = useState(true)
